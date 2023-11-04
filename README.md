@@ -20,22 +20,27 @@ This is a FastAPI application that provides endpoints for user authentication an
 ## Installation
 
 Ensure you have Python 3.7+ installed on your system before starting the installation.
-    
+- Clone the repository
    ```bash
-        # Clone the repository
         git clone https://github.com/sarparslan/FastAPISecureQR.git
-        
-        # Navigate to the project directory
-        cd FastAPISecureQR
-        
-        # Install the dependencies
-        pip install -r requirements.txt
-        
-        #To start the FastAPI server, run the following command:
-        uvicorn main:app --reload
-        
-        #The API will be available at http://127.0.0.1:8000.
   ```
+ - Navigate to the project directory
+
+   ```bash
+        cd FastAPISecureQR
+      ```
+ - Install the dependencies
+
+   ```bash
+        pip install -r requirements.txt
+    ```
+ - To start the FastAPI server, run the following command
+
+   ```bash
+        uvicorn main:app --reload
+    ``` 
+
+The API will be available at http://127.0.0.1:8000.
 
   ## API Endpoints
   -> Authentication
